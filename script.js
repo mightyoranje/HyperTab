@@ -233,8 +233,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const announcementText = document.getElementById('announcementText');
   const closeAnnouncementBtn = document.getElementById('closeAnnouncement');
 
-  const API_KEY = 'AIzaSyD8Gt0dhYwGlwA0kn3KUtVpE5ZuyI8OFSc';
-  const SHEET_ID = '1T44iOJ0Z29kOrGIlognOoK42qyUX0VyIz9Vh9RN5P2Y';
+  const API_KEY = ''; //YOUR API KEY
+  const SHEET_ID = ''; //YOUR SHEET ID
   const RANGE = 'A2:B2'; 
   function fetchAnnouncement() {
     console.log('Fetching announcement...');
