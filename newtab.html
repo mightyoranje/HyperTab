@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hyperverge Hackathon submission</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <button id="darkModeToggle" class="mode-toggle">Toggle Dark Mode</button>
+  <div class="announcement-widget">
+    <p id="announcementText"></p>
+    <button id="closeAnnouncement">X</button>
+  </div>
+  <div class="background"></div>
+  <div class="main-container">
+    <div class="left-column">
+      <div class="container timer-container">
+        <div class="label">Current Time</div>
+        <div id="timer">00:00:00</div>
+        
+        <div id="pomodoro">
+          <div class="label">Pomodoro Timer</div>
+          <div id="pomodoroTimer">25:00</div>
+          <button id="startPomodoro">Start</button>
+          <button id="resetPomodoro">Reset</button>
+        </div>
+      </div>
+      <div class="spotify-widget">
+        <iframe src="https://open.spotify.com/embed/playlist/37i9dQZEVXcJZyENOWUFo7" width="100%" frameborder="0" allowtransparency="true" allow="encrypted-media" class="spotify-widget"></iframe>      
+      </div>
+      <div class="todo-container">
+        <h3>Daily Growth Checklist</h3>
+        <div class="todo-input">
+          <input type="text" id="todoInput" placeholder="Enter a new task">
+          <button id="addTodo">Add</button>
+        </div>
+        <div class="todo-scrollable">
+          <ul id="todoList"></ul>
+        </div>
+      </div>
+    </div>    
+    <div class="container slides-container">
+      <div class="slide-input-container">
+        <input type="text" id="documentUrlInput" placeholder="Enter Google Slides, Sheets, or Forms URL">
+        <select id="documentType">
+          <option value="slides">Slides</option>
+          <option value="sheets">Sheets</option>
+          <option value="forms">Forms</option>
+        </select>
+        <button id="loadDocumentBtn">Load Document</button>
+      </div>
+      <div id="documentContainer"></div>
+    </div>
+  </div>
+
+
+  
+  <script src="script.js"></script>
+</body>
+</html>

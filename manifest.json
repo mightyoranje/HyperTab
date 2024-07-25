@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Pomodoro Timer with Google Slides and Spotify",
+  "description": "Replaces new tab with a Pomodoro timer, embedded Google Slides, and Spotify widget",
+  "version": "1.0",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "https://open.spotify.com/*"  
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["background.jpg"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
