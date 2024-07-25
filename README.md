@@ -1,6 +1,6 @@
 # Hypetab Chrome Extention
 
-This is a Chrome Extension that replaces the new tab with a minimalistic and cozy widgets-rich dashboard. More suitable for employees.
+This is a Chrome Extension that replaces the new tab with a minimalistic and cozy widgets-rich dashboard. More suitable for tech employees.
 
 If you want to use the announcement functionality be sure to change the API_KEY and SHEET_ID in the script.js
 
